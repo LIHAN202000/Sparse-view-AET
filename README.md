@@ -21,6 +21,7 @@ Through range-null space decomposition and ancestral sampling, the posterior mea
 - Please adjust the horizontal size of the projected data to 256 through cropping or padding.
 - When phenomena such as stacking discontinuity or "atomic ejection" occur, please recheck the alignment or noise reduction, or increase the number of projections.
 
+# Acknowledgements
 This implementation is inspired by:
 - Diffusion model: https://github.com/ermongroup/ddim, https://github.com/wyhuai/DDNM
 - Atomic Electron Tomography:https://github.com/AET-AmorphousMaterials/Supplementary-Data-Codes, https://github.com/MDAIL-KAIST/DL-augmentation
