@@ -70,7 +70,7 @@ def calc_A(angles, projections):  # Calculate the matrix of Radon transform
     return A
 
 
-def A_pinv(A, y, iterations=200):  # Calculate the inverse Radon transform iteratively
+def A_pinv(A, y, iterations=50):  # Calculate the inverse Radon transform iteratively
     step_size = 2
     dimx, dimy, Num_pj = y.shape
     dt = torch.tensor((step_size / Num_pj / dimx), dtype=torch.float32)
